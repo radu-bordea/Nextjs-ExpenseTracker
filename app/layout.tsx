@@ -44,7 +44,7 @@ export default function RootLayout({
               <Navbar />
 
               {/* Right side: Auth buttons */}
-              <div className="flex gap-4 items-center">
+              <div className="hidden lg:block flex gap-4 items-center">
                 <SignedOut>
                   <SignInButton />
                   <SignUpButton>
