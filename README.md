@@ -12,5 +12,9 @@ zustand → Global state for expenses
 drizzle-orm, pg → PostgreSQL ORM
 shadcn/ui + lucide-react → Modern UI components
 
+# dependencies
+- npm install next-themes
 
+# shadcn
+- npx shadcn@latest add button
 
