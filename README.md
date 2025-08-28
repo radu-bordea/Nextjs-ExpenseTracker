@@ -9,3 +9,7 @@
 - npx prisma generate
 # migaret
 - npx prisma migrate dev (user-migration-create)
+
+
+# clerk installation
+- npm i @clerk/nextjs
