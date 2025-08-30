@@ -13,3 +13,6 @@
 
 # clerk installation
 - npm i @clerk/nextjs
+
+# libraries
+- npm i react-toastify

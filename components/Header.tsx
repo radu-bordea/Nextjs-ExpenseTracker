@@ -7,11 +7,11 @@ const Header = async () => {
 
   return (
     <nav className="navbar">
-      <div className="flex w-screen justify-around md:justify-between p-4 bg-zinc-950">
+      <div className="flex justify-around md:justify-between p-4 bg-zinc-950">
         <h2 className="text-xl">Expense Tracker</h2>
         <div>
           <SignedOut>
-            <div className="bg-purple-900 py-1 px-4 broder rounded-md">
+            <div className="bg-purple-900 py-1 px-4 rounded-md shadow-md hover:bg-purple-800 transition">
               <SignInButton />
             </div>
           </SignedOut>
