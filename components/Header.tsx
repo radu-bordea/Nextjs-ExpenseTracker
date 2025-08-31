@@ -7,7 +7,7 @@ const Header = async () => {
 
   return (
     <nav className="navbar">
-      <div className="flex justify-around md:justify-between p-4 bg-zinc-950">
+      <div className="flex justify-around md:justify-between p-4 bg-zinc-900">
         <h2 className="text-xl">Expense Tracker</h2>
         <div>
           <SignedOut>
