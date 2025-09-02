@@ -16,3 +16,7 @@
 
 # libraries
 - npm i react-toastify
+
+# deployment
+- add "postinstall": "prisma generate" in package.dev (scripts)
+- add env variables on vercel env variables

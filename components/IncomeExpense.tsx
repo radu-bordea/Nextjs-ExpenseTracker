@@ -1,4 +1,5 @@
 import getIncomeExpense from "@/app/actions/getIncomeExpense"; // Import server action to fetch income & expense totals
+import { addCommas } from "@/lib/utils";
 
 const IncomeExpense = async () => {
   // Fetch income and expense values from the database via server action
@@ -10,7 +11,9 @@ const IncomeExpense = async () => {
       <div className="py-4 md:px-4">
         <h4>INCOME</h4>
         {/* Display total income in green */}
-        <p className="text-green-400">${income}</p>
+        <p className="text-green-400">
+          ${addCommas(Number(income?.toFixed(2)))}
+        </p>
       </div>
 
       {/* Vertical divider between income and expense */}
@@ -20,7 +23,7 @@ const IncomeExpense = async () => {
       <div className="py-4 md:px-4">
         <h4>EXPENSE</h4>
         {/* Display total expense in red */}
-        <p className="text-red-400">${expense}</p>
+        <p className="text-red-400">${addCommas(Number(expense?.toFixed(2)))}</p>
       </div>
     </div>
   );

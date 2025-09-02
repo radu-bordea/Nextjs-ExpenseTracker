@@ -11,7 +11,7 @@ const Balance = async () => {
       <h4>Your Balance</h4>
 
       {/* Display balance, formatted with commas (default to 0 if undefined) */}
-      <h1 className="text-3xl">${addCommas(balance ?? 0)}</h1>
+      <h1 className="text-3xl">${addCommas(Number(balance?.toFixed(2) ?? 0))}</h1>
     </>
   );
 };
