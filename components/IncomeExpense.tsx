@@ -10,7 +10,7 @@ const IncomeExpense = async () => {
       <div className="py-4 md:px-4">
         <h4>INCOME</h4>
         {/* Display total income in green */}
-        <p className="text-green-300">${income}</p>
+        <p className="text-green-400">${income}</p>
       </div>
 
       {/* Vertical divider between income and expense */}

@@ -26,7 +26,7 @@ const AddTransactions = () => {
   return (
     <div className="flex flex-col items-start space-y-12 mt-16">
       {/* Section heading */}
-      <h3 className="border-b border-b-cyan-800 w-full text-left pb-2">
+      <h3 className="border-b border-b-gray-800 w-full text-left pb-2">
         Add Transaction
       </h3>
 
@@ -40,7 +40,7 @@ const AddTransactions = () => {
         <div className="flex flex-col items-start space-y-2 w-full">
           <label htmlFor="text">Text</label>
           <input
-            className="border bg-gray-900 border-gray-800 w-full p-1 rounded-sm"
+            className="border border-gray-800 hover:border-gray-700 w-full p-1 rounded-sm"
             type="text"
             id="text"
             name="text"
@@ -54,7 +54,7 @@ const AddTransactions = () => {
             Amount (negative - expense, positive - income)
           </label>
           <input
-            className="border bg-gray-900 border-gray-800 w-full p-1 rounded-sm"
+            className="border border-gray-800 hover:border-gray-700 w-full p-1 rounded-sm"
             type="number"
             id="amount"
             name="amount"
